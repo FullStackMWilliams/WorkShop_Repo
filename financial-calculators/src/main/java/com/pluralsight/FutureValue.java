@@ -31,7 +31,9 @@ public class FutureValue {
 
         double futureWorth = principal * Math.pow(1 + dailyRate,totalDays);
 
-        double totalInterest = futureWorth - principal;
+        double totalInterest_earned = futureWorth - principal;
+
+        System.out.println("If you deposit $" + principal + " in a CD that earns " + annualInterest_rate + "% interest and matures in" + years + " years, your CD's ending balance will be $" + futureWorth + " and you would have earned $" + totalInterest_earned);
 
 
     }
