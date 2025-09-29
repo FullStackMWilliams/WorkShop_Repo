@@ -34,6 +34,6 @@ public class Main {
 
         double totalInterest = (totalOf_monthlyPayments * totalMonths_ofLoan) - Principal;
 
-        System.out.println("A $" + Principal + " loan at " + (annualRate * 100) + "% interest for " + years + "years would have a $" + totalOf_monthlyPayments + "/mo payment with a total interest of $" + totalInterest);
+        System.out.println("A $" + Principal + " loan at " + (annualRate * 100) + "% interest for " + years + " years would have a $" + totalOf_monthlyPayments + "/mo payment with a total interest of $" + totalInterest);
     }
 }
