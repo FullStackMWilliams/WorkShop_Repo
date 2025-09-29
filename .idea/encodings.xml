@@ -3,5 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/FinancialCalculator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/FinancialCalculator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/financial-calculator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/financial-calculator/src/main/resources" charset="UTF-8" />
   </component>
 </project>

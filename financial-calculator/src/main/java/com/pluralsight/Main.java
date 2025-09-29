@@ -2,7 +2,7 @@ package com.pluralsight;
 import java.util.Scanner;
 //                      Workshop 1: Financial Calculators
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 
         Scanner myLoan_Advisor = new Scanner(System.in);
@@ -36,4 +36,4 @@ public class main {
 
         System.out.println("A $" + Principal + " loan at " + (annualRate * 100) + "% interest for " + years + "years would have a $" + totalOf_monthlyPayments + "/mo payment with a total interest of $" + totalInterest);
     }
-    }
+}
