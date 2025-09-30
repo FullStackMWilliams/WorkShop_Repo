@@ -1,7 +1,7 @@
 package com.pluralsight;
 import java.util.Scanner;
 
-//                         Workshop 1: part 2 future value
+//                         Workshop 1: part 2 Future Value
 
 public class FutureValue {
     public static void main(String[] args) {
