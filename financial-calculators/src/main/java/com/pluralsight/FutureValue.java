@@ -15,14 +15,14 @@ public class FutureValue {
 // Notes: The number above assume daily compounding
 // Equation: FV = P x (1 + (r / 365) ) ^ (365 x t)
 
-        System.out.println("Enter deposit amount: $");
+        System.out.print("Enter deposit amount: $");
         double principal = userInput.nextDouble();
 
 
-        System.out.println("Enter annual interest: ");
+        System.out.print("Enter annual interest: ");
         double annualInterest_rate = userInput.nextDouble()/100;
 
-        System.out.println("Enter number of year: ");
+        System.out.print("Enter number of year: ");
         int years = userInput.nextInt();
 
         int daysPer_year = 365;
@@ -33,7 +33,9 @@ public class FutureValue {
 
         double totalInterest_earned = futureWorth - principal;
 
-        System.out.println("If you deposit $" + principal + " in a CD that earns " + annualInterest_rate + "% interest and matures in " + years + " years, your CD's ending balance will be $" + futureWorth + " and you would have earned $" + totalInterest_earned);
+        System.out.printf("If you deposit $%.2f in a CD that earns %.2f%% interest and matures in %d years, your CD's ending balance will be $%.2f and you would have earned $%.2f%n",
+                principal, annualInterest_rate, years, futureWorth, totalInterest_earned);
+
 
 
     }
