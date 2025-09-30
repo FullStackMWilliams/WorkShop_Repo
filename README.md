@@ -1,3 +1,4 @@
-<img width="1859" height="1040" alt="Screenshot 2025-09-29 161243" src="https://github.com/user-attachments/assets/6d9291cf-9135-4922-87aa-63e1ec9159fe" />
-<img width="1865" height="1058" alt="Screenshot 2025-09-29 161206" src="https://github.com/user-attachments/assets/dbb1e8de-123f-4350-8b58-20de52e7610b" />
+<img width="1866" height="1045" alt="Screenshot 2025-09-29 234306" src="https://github.com/user-attachments/assets/b7272ed1-7bda-4d47-b818-a404c8c2fe8b" />
+<img width="1863" height="1055" alt="Screenshot 2025-09-29 233904" src="https://github.com/user-attachments/assets/5cf1ca2e-bd5b-4e5f-a5ef-a35b85a5a6eb" />
+
 # Financial-Calculator
