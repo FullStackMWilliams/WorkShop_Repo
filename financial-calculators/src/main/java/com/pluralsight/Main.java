@@ -18,13 +18,13 @@ public class Main {
  M = P x (i * (1 + i)^n / ( (1 + i)^n ) - 1)
  */
 
-        System.out.println("Enter the requested loan amount: $");
+        System.out.print("Enter the requested loan amount: $");
         double Principal = myLoan_Advisor.nextDouble();
 
-        System.out.println("Enter your annual interest rate (ex. 7.625 for 7.625%): ");
+        System.out.print("Enter your annual interest rate (ex. 7.625 for 7.625%): ");
         double annualRate = myLoan_Advisor.nextDouble() /100;
 
-        System.out.println("Enter loan term (in years): ");
+        System.out.print("Enter loan term (in years): ");
         int years = myLoan_Advisor.nextInt();
 
         int totalMonths_ofLoan = years * 12;
@@ -34,6 +34,8 @@ public class Main {
 
         double totalInterest = (totalOf_monthlyPayments * totalMonths_ofLoan) - Principal;
 
-        System.out.println("A $" + Principal + " loan at " + (annualRate * 100) + "% interest for " + years + " years would have a $" + totalOf_monthlyPayments + "/mo payment with a total interest of $" + totalInterest);
+        System.out.printf("A $%.2f loan at %.2f%% interest for %d years would have a $%.2f/mo payment with a total interest of $%.2f%n",
+                Principal, annualRate * 100, years, totalOf_monthlyPayments, totalInterest);
+
     }
 }
