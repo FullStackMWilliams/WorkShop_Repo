@@ -33,6 +33,7 @@ public class FutureValue {
 
         double totalInterest_earned = futureWorth - principal;
 
+        // Needed to use a print f statement to better show CD outcome
         System.out.printf("If you deposit $%.2f in a CD that earns %.2f%% interest and matures in %d years, your CD's ending balance will be $%.2f and you would have earned $%.2f%n",
                 principal, annualInterest_rate, years, futureWorth, totalInterest_earned);
 
