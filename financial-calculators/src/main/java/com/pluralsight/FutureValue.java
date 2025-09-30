@@ -20,10 +20,10 @@ public class FutureValue {
 
 
         System.out.println("Enter annual interest: ");
-        double annualInterest_rate = userInput.nextDouble();
+        double annualInterest_rate = userInput.nextDouble()/100;
 
         System.out.println("Enter number of year: ");
-        int years = userInput.nextInt() / 100;
+        int years = userInput.nextInt();
 
         int daysPer_year = 365;
         int totalDays = years * daysPer_year;
@@ -33,7 +33,7 @@ public class FutureValue {
 
         double totalInterest_earned = futureWorth - principal;
 
-        System.out.println("If you deposit $" + principal + " in a CD that earns " + annualInterest_rate + "% interest and matures in" + years + " years, your CD's ending balance will be $" + futureWorth + " and you would have earned $" + totalInterest_earned);
+        System.out.println("If you deposit $" + principal + " in a CD that earns " + annualInterest_rate + "% interest and matures in " + years + " years, your CD's ending balance will be $" + futureWorth + " and you would have earned $" + totalInterest_earned);
 
 
     }
